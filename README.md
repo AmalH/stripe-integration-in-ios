@@ -1,5 +1,5 @@
 # Accepting credit card in iOS apps using Stripe
-This is a sample for accepting credit card in iOS apps using [Stripe](https://www.twilio.com/docs/authy/api)
+This is a sample for accepting credit card in iOS apps using [Stripe](https://stripe.com) .
 
 ## Description
 
@@ -14,4 +14,3 @@ Clone this repository and import into Android Studio
 ```
 git clone https://github.com/AmalH/stripe-integration-in-ios.git
 ```
-### Pre-requisites
