@@ -10,7 +10,7 @@ You can use this project along the following tutorial : [Accepting credit cards 
 
 ## Getting started
 
-Clone this repository and import into Android Studio
+Clone this repository and import into Xcode .
 ```
 git clone https://github.com/AmalH/stripe-integration-in-ios.git
 ```
