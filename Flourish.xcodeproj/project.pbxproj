@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E39717A1FD3032F008CF6FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3971791FD3032F008CF6FF /* Constants.swift */; };
+		1E39717C1FD30BFD008CF6FF /* NumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39717B1FD30BFD008CF6FF /* NumberFormat.swift */; };
+		1E4816D01FD0AC2900286AD5 /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4816CF1FD0AC2900286AD5 /* StripeClient.swift */; };
+		9A701A641FD0191E00368A34 /* CheckoutBouquetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A701A631FD0191E00368A34 /* CheckoutBouquetTableViewCell.swift */; };
+		9A701A661FD0199C00368A34 /* CheckoutTotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A701A651FD0199C00368A34 /* CheckoutTotalTableViewCell.swift */; };
+		9AD7B0F51FCF161F007D87F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B0F41FCF161F007D87F4 /* AppDelegate.swift */; };
+		9AD7B0FA1FCF161F007D87F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD7B0F81FCF161F007D87F4 /* Main.storyboard */; };
+		9AD7B0FC1FCF161F007D87F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD7B0FB1FCF161F007D87F4 /* Assets.xcassets */; };
+		9AD7B1071FCF18EE007D87F4 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B1061FCF18EE007D87F4 /* InventoryViewController.swift */; };
+		9AD7B1091FCF18FB007D87F4 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B1081FCF18FB007D87F4 /* CheckoutViewController.swift */; };
+		9AD7B10B1FCF190D007D87F4 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B10A1FCF190D007D87F4 /* FeaturedViewController.swift */; };
+		9AD7B1111FCF1967007D87F4 /* bouquets.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AD7B10D1FCF1967007D87F4 /* bouquets.json */; };
+		9AD7B1121FCF1967007D87F4 /* Bouquet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B10E1FCF1967007D87F4 /* Bouquet.swift */; };
+		9AD7B1131FCF1967007D87F4 /* InventoryBouquetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B10F1FCF1967007D87F4 /* InventoryBouquetTableViewCell.swift */; };
+		9AD7B1151FCF1D03007D87F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B1141FCF1D03007D87F4 /* DetailViewController.swift */; };
+		9AD7B1171FCF2198007D87F4 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B1161FCF2198007D87F4 /* RowView.swift */; };
+		9AD7B1191FCF234F007D87F4 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B1181FCF234F007D87F4 /* DataProvider.swift */; };
+		9AD7B11B1FCF2BC9007D87F4 /* CheckoutCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7B11A1FCF2BC9007D87F4 /* CheckoutCart.swift */; };
+		C185CBF2C33818C3AB85B11B /* Pods_Flourish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B8196E59453616FB784E4 /* Pods_Flourish.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B9B8196E59453616FB784E4 /* Pods_Flourish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flourish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3971791FD3032F008CF6FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1E39717B1FD30BFD008CF6FF /* NumberFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormat.swift; sourceTree = "<group>"; };
+		1E4816CF1FD0AC2900286AD5 /* StripeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		55879471340AB1A023098852 /* Pods-Flourish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flourish.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flourish/Pods-Flourish.release.xcconfig"; sourceTree = "<group>"; };
+		569839D119E875B1CFB6965E /* Pods-RWPuppies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPuppies.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPuppies/Pods-RWPuppies.release.xcconfig"; sourceTree = "<group>"; };
+		9A701A631FD0191E00368A34 /* CheckoutBouquetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutBouquetTableViewCell.swift; sourceTree = "<group>"; };
+		9A701A651FD0199C00368A34 /* CheckoutTotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTotalTableViewCell.swift; sourceTree = "<group>"; };
+		9AD7B0F11FCF161F007D87F4 /* Flourish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flourish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD7B0F41FCF161F007D87F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD7B0F91FCF161F007D87F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD7B0FB1FCF161F007D87F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD7B1001FCF161F007D87F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD7B1061FCF18EE007D87F4 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		9AD7B1081FCF18FB007D87F4 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		9AD7B10A1FCF190D007D87F4 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		9AD7B10D1FCF1967007D87F4 /* bouquets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bouquets.json; sourceTree = "<group>"; };
+		9AD7B10E1FCF1967007D87F4 /* Bouquet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouquet.swift; sourceTree = "<group>"; };
+		9AD7B10F1FCF1967007D87F4 /* InventoryBouquetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryBouquetTableViewCell.swift; sourceTree = "<group>"; };
+		9AD7B1141FCF1D03007D87F4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9AD7B1161FCF2198007D87F4 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		9AD7B1181FCF234F007D87F4 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		9AD7B11A1FCF2BC9007D87F4 /* CheckoutCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCart.swift; sourceTree = "<group>"; };
+		B85FEFAC8CAE17D1A34D501D /* Pods-RWPuppies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPuppies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPuppies/Pods-RWPuppies.debug.xcconfig"; sourceTree = "<group>"; };
+		FC59881A9431C241C020E2A0 /* Pods-Flourish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flourish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flourish/Pods-Flourish.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD7B0EE1FCF161E007D87F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C185CBF2C33818C3AB85B11B /* Pods_Flourish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2A4D9E5427F20ECD165745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B85FEFAC8CAE17D1A34D501D /* Pods-RWPuppies.debug.xcconfig */,
+				569839D119E875B1CFB6965E /* Pods-RWPuppies.release.xcconfig */,
+				FC59881A9431C241C020E2A0 /* Pods-Flourish.debug.xcconfig */,
+				55879471340AB1A023098852 /* Pods-Flourish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59A92E9AD778809EFD111D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9B8196E59453616FB784E4 /* Pods_Flourish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD7B0E81FCF161E007D87F4 = {
+			isa = PBXGroup;
+			children = (
+				9AD7B0F31FCF161F007D87F4 /* Flourish */,
+				9AD7B0F21FCF161F007D87F4 /* Products */,
+				4F2A4D9E5427F20ECD165745 /* Pods */,
+				59A92E9AD778809EFD111D95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD7B0F21FCF161F007D87F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7B0F11FCF161F007D87F4 /* Flourish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD7B0F31FCF161F007D87F4 /* Flourish */ = {
+			isa = PBXGroup;
+			children = (
+				1E3971791FD3032F008CF6FF /* Constants.swift */,
+				1E4816CF1FD0AC2900286AD5 /* StripeClient.swift */,
+				9AD7B1161FCF2198007D87F4 /* RowView.swift */,
+				9AD7B1141FCF1D03007D87F4 /* DetailViewController.swift */,
+				9AD7B1181FCF234F007D87F4 /* DataProvider.swift */,
+				9AD7B10D1FCF1967007D87F4 /* bouquets.json */,
+				9AD7B10E1FCF1967007D87F4 /* Bouquet.swift */,
+				9AD7B10F1FCF1967007D87F4 /* InventoryBouquetTableViewCell.swift */,
+				9AD7B0F41FCF161F007D87F4 /* AppDelegate.swift */,
+				9AD7B0F81FCF161F007D87F4 /* Main.storyboard */,
+				9AD7B0FB1FCF161F007D87F4 /* Assets.xcassets */,
+				9AD7B1001FCF161F007D87F4 /* Info.plist */,
+				9AD7B1061FCF18EE007D87F4 /* InventoryViewController.swift */,
+				9AD7B1081FCF18FB007D87F4 /* CheckoutViewController.swift */,
+				9AD7B10A1FCF190D007D87F4 /* FeaturedViewController.swift */,
+				9AD7B11A1FCF2BC9007D87F4 /* CheckoutCart.swift */,
+				9A701A631FD0191E00368A34 /* CheckoutBouquetTableViewCell.swift */,
+				9A701A651FD0199C00368A34 /* CheckoutTotalTableViewCell.swift */,
+				1E39717B1FD30BFD008CF6FF /* NumberFormat.swift */,
+			);
+			path = Flourish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD7B0F01FCF161E007D87F4 /* Flourish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD7B1031FCF161F007D87F4 /* Build configuration list for PBXNativeTarget "Flourish" */;
+			buildPhases = (
+				5D8FCC6F88BD7F29D2279960 /* [CP] Check Pods Manifest.lock */,
+				9AD7B0ED1FCF161E007D87F4 /* Sources */,
+				9AD7B0EE1FCF161E007D87F4 /* Frameworks */,
+				9AD7B0EF1FCF161E007D87F4 /* Resources */,
+				D9C95F4247B2D7CE80F6DF33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flourish;
+			productName = RWPuppies;
+			productReference = 9AD7B0F11FCF161F007D87F4 /* Flourish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD7B0E91FCF161E007D87F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					9AD7B0F01FCF161E007D87F4 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AD7B0EC1FCF161E007D87F4 /* Build configuration list for PBXProject "Flourish" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD7B0E81FCF161E007D87F4;
+			productRefGroup = 9AD7B0F21FCF161F007D87F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD7B0F01FCF161E007D87F4 /* Flourish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD7B0EF1FCF161E007D87F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD7B0FC1FCF161F007D87F4 /* Assets.xcassets in Resources */,
+				9AD7B1111FCF1967007D87F4 /* bouquets.json in Resources */,
+				9AD7B0FA1FCF161F007D87F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D8FCC6F88BD7F29D2279960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flourish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C95F4247B2D7CE80F6DF33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flourish/Pods-Flourish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flourish/Pods-Flourish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD7B0ED1FCF161E007D87F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E39717C1FD30BFD008CF6FF /* NumberFormat.swift in Sources */,
+				9A701A661FD0199C00368A34 /* CheckoutTotalTableViewCell.swift in Sources */,
+				9AD7B1151FCF1D03007D87F4 /* DetailViewController.swift in Sources */,
+				9AD7B1091FCF18FB007D87F4 /* CheckoutViewController.swift in Sources */,
+				9A701A641FD0191E00368A34 /* CheckoutBouquetTableViewCell.swift in Sources */,
+				1E39717A1FD3032F008CF6FF /* Constants.swift in Sources */,
+				9AD7B1071FCF18EE007D87F4 /* InventoryViewController.swift in Sources */,
+				9AD7B1171FCF2198007D87F4 /* RowView.swift in Sources */,
+				9AD7B1131FCF1967007D87F4 /* InventoryBouquetTableViewCell.swift in Sources */,
+				9AD7B0F51FCF161F007D87F4 /* AppDelegate.swift in Sources */,
+				9AD7B1121FCF1967007D87F4 /* Bouquet.swift in Sources */,
+				9AD7B11B1FCF2BC9007D87F4 /* CheckoutCart.swift in Sources */,
+				1E4816D01FD0AC2900286AD5 /* StripeClient.swift in Sources */,
+				9AD7B1191FCF234F007D87F4 /* DataProvider.swift in Sources */,
+				9AD7B10B1FCF190D007D87F4 /* FeaturedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AD7B0F81FCF161F007D87F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD7B0F91FCF161F007D87F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD7B1011FCF161F007D87F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD7B1021FCF161F007D87F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD7B1041FCF161F007D87F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC59881A9431C241C020E2A0 /* Pods-Flourish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flourish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amalhichri.stripedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AD7B1051FCF161F007D87F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55879471340AB1A023098852 /* Pods-Flourish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flourish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.amalhichri.stripedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD7B0EC1FCF161E007D87F4 /* Build configuration list for PBXProject "Flourish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD7B1011FCF161F007D87F4 /* Debug */,
+				9AD7B1021FCF161F007D87F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD7B1031FCF161F007D87F4 /* Build configuration list for PBXNativeTarget "Flourish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD7B1041FCF161F007D87F4 /* Debug */,
+				9AD7B1051FCF161F007D87F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD7B0E91FCF161E007D87F4 /* Project object */;
+}
