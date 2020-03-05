@@ -3,9 +3,9 @@ This is a sample for accepting credit card in iOS apps using [Stripe](https://ww
 
 ## Description
 
-You can use this project along the following tutorial : [Accepting credit cards in iOS with Strip](http://blog.amalhichri.me/accepting-credit…n-ios-with-strip/)
+You can use this project along the following tutorial : [Accepting credit cards in iOS with Strip](https://blog.amalhichri.me/accepting-credit…n-ios-with-strip)
 <p align="center">
-<img src="https://raw.githubusercontent.com/AmalH/AmalH/stripe-integration-in-ios/master/screenshots/stripeSample.gif"/>
+<img src="https://raw.githubusercontent.com/AmalH/stripe-integration-in-ios/master/screenshots/stripeSample.gif"/>
 </p>
 
 ## Getting started
@@ -15,6 +15,3 @@ Clone this repository and import into Android Studio
 git clone https://github.com/AmalH/stripe-integration-in-ios.git
 ```
 ### Pre-requisites
-*  
-*  
-* 
